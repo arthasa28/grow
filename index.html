@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROW</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1f4037, #99f2c8);
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: white;
+            margin-bottom: 30px;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+        .button {
+            display: inline-block;
+            padding: 25px 50px; /* Increased padding */
+            margin: 10px;
+            font-size: 28px; /* Increased font size */
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            background-color: #ff4b2b;
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+        }
+        .button:hover {
+            background-color: #ff416c;
+            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+            transform: translateY(-7px);
+        }
+        .button:active {
+            transform: translateY(-1px);
+        }
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            .button {
+                font-size: 24px; /* Adjusted for smaller screens */
+                padding: 20px 40px; /* Adjusted for smaller screens */
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .button {
+                font-size: 20px; /* Adjusted for smaller screens */
+                padding: 18px 35px; /* Adjusted for smaller screens */
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>KUNCI JAWABAN EXAM SC900</h1>
+        <a href="Exam1.html">
+            <button class="button">Exam 1 1-200</button>
+        </a>
+        <a href="Exam2.html">
+            <button class="button">Exam 2 201-400</button>
+        </a>
+    </div>
+</body>
+</html>
